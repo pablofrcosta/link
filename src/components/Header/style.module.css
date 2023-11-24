@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 7vmin;
+}
+
+.header>p {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    place-items: center;
+    font-size: 4vmin;
+}

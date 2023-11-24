@@ -1,0 +1,66 @@
+form {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.selectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vmin;
+}
+
+.select {
+    width: 40vmin;
+    height: 5vmin;
+    border: 1px solid black;
+    border-left: none;
+    outline: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vmin;
+    height: 5vmin;
+    border: 1px solid black;
+    border-right: none;
+}
+
+.link {
+    width: 40vmin;
+    height: 5vmin;
+    border: 1px solid black;
+    border-left: none;
+    outline: none;
+}
+
+.saveButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vmin;
+    height: 5vmin;
+    cursor: pointer;
+    margin-top: 2vmin;
+}
+
+.linkHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkHeader>h3 {
+    font-size: 3vmin;
+
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonRemove {
+    width: 10vmin;
+}
